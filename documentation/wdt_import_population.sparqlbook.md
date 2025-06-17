@@ -135,14 +135,7 @@ INSERT {
 
         ## please note the service address            
         SERVICE <https://query.wikidata.org/sparql>
-            {
-            {?item wdt:P106 wd:Q11063}  # astronomer
-            UNION
-            {?item wdt:P101 wd:Q333}     # astronomy
-            UNION
-            {?item wdt:P106 wd:Q169470}  # physicist
-            UNION
-            {?item wdt:P101 wd:Q413}     # physics   
+            {{ ?item wdt:P106 wd:Q2374149 } 
           
             ?item wdt:P31 wd:Q5;  # Any instance of a human.
                 wdt:P569 ?birthDate;
@@ -154,8 +147,10 @@ INSERT {
         BIND ( ?itemLabel as ?itemLabel)
         SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }   
         }
-        }
+    }
         
+    
+
     
 
 ```
