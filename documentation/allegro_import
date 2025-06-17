@@ -1,4 +1,4 @@
--- Rend data base correcte 
+# Rend data base correcte 
 PREFIX franzOption_serviceTimeout: <franz:120>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
