@@ -108,6 +108,25 @@ INSERT DATA {
     }
 }
 ```
+## Bug: personnes sans genre déclaré, combien ?
+```sparql
+PREFIX wd: <http://www.wikidata.org/entity/>
+SELECT ?o (COUNT(*) as ?x) WHERE {
+  GRAPH ?g {
+    wd:Q21518962 ?p ?o .
+  }
+}
+GROUP BY ?o
+```
+## Enlever cette personne
+```sparql
+PREFIX wd: <http://www.wikidata.org/entity/>
+DELETE WHERE {
+  GRAPH ?g {
+    wd:Q21518962 ?p ?o .
+  }
+}
+```
 # Verifier triplets importés et ajoutter labels aux genres
 ```sparql
 ### Number of triples in the graph
