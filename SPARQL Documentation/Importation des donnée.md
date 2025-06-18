@@ -1,4 +1,5 @@
 # Rend data base correcte 
+```sparql
 PREFIX franzOption_serviceTimeout: <franz:120>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
@@ -32,5 +33,5 @@ WHERE {
     }
   }
 }
-
+```
     
