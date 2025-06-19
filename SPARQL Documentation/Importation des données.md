@@ -1,4 +1,4 @@
-Application du document `wdt_import_population.sparqlbook`
+Application du document `wdt_import_population.sparqlbook` sur ma base de données de grimpeurs (climbers, mountaineers et rock climbers).
 # Rend data base correcte 
 ```sparql
 PREFIX franzOption_serviceTimeout: <franz:120>
