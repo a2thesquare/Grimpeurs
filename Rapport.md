@@ -15,9 +15,9 @@ Ce projet vise à nous initier aux méthodes numériques appliquées aux science
 ### 1) Quelle est la répartition géographique des grimpeurs notables ?
 
 Pour répondre à cette question, la démarche se décompose en plusieurs étapes :  
-1) Importation de la base de données initiale([voir détail](Importation-des-donnees.md)) pour nettoyer et clarifier le DataFrame original.  
-2) Importation des citoyennetés ([voir détail](Import_des_citoyennetes.md)) afin d’obtenir le nombre total d’individus par citoyenneté, grâce au fichier extrait [Citoyennetes.csv](Citoyennetes.csv).  
-3) Visualisation des citoyennetés [voir détail](Distribution_nationalites) pour observer la distribution géographique.
+1) Importation de la base de données initiale([voir détail](SPARQL-Documentation/Importation-des-donnees.md)) pour nettoyer et clarifier le DataFrame original.  
+2) Importation des citoyennetés ([voir détail](SPARQL-Documentation/Import_des_citoyennetes.md)) afin d’obtenir le nombre total d’individus par citoyenneté, grâce au fichier extrait [Citoyennetes.csv](data/Citoyennetes.csv).  
+3) Visualisation des citoyennetés [voir détail](Jupyter-Notebooks/Distribution_nationalites) pour observer la distribution géographique.
 
 Grâce à un simple diagramme en barres horizontales, on constate que les États-Unis sont le pays le plus représenté parmi les grimpeurs notables, l'Allemagne puis la France en deuxième et troisième place.  
 
