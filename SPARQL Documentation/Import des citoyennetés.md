@@ -720,3 +720,21 @@ ORDER BY DESC(?n)
 LIMIT 10
 
 ```
+## Import final 
+```sparql
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT ?citizenship ?citizenshipLabel (COUNT(*) as ?n)
+WHERE {
+  GRAPH <https://github.com/a2thesquare/Grimpeurs/blob/main/graphs/wikidata_imported_data.md> {
+     ?s wdt:P27 ?citizenship.
+     ?citizenship rdfs:label ?citizenshipLabel.
+  }
+}
+GROUP BY ?citizenship ?citizenshipLabel
+ORDER BY DESC(?n)
+
+```
