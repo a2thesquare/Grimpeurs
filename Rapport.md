@@ -28,13 +28,8 @@ Ce projet vise à nous initier aux méthodes numériques appliquées aux science
 * Tableau de contingence + test du Chi².
 * Objectif : voir s’il y a une répartition genrée dans les différentes sous-disciplines.
 
-### 3. **Certains grimpeurs sont-ils liés par des appartenances communes (pays, clubs, circuits de compétition) ?**
+### 3. Est-ce qu'il y a un plus grosse proportion de femmes grimpeuses à partir d'une certaine année ? 
 
-*Méthode :*
-
-* Analyse de réseau sur les relations indirectes (ex. : même club, même pays, même participation à une compétition).
-* Construction d’un graphe avec les nœuds = individus et les arêtes = lien d’appartenance commune.
-* Objectif : visualiser les clusters ou « générations » de grimpeurs.
 
 ## Conclusion
 Limitations ?
