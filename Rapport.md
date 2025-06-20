@@ -12,13 +12,24 @@ En premier lieu les données ont été extraites via SPARQL, stockées dans un t
 Ce projet vise à nous initier aux méthodes numériques appliquées aux sciences humaines et sociales, en s’appuyant sur des outils d’extraction et d’analyse de données comme Wikidata. Il s’agit d’apprendre à interroger, structurer et interpréter des données dans une démarche prosopographique exploratoire.
 
 ## Questions de recherche
-### 1) Quelle est la répartition géographique des grimpeurs notables, et comment a-t-elle évolué dans le temps ?
+### 1) Quelle est la répartition géographique des grimpeurs notables ?
 
-*Méthode :*
+Pour répondre à cette question, la démarche se décompose en plusieurs étapes :  
+1) Importation de la base de données initiale([voir détail](Importation-des-donnees.md)) pour nettoyer et clarifier le DataFrame original.  
+2) Importation des citoyennetés ([voir détail](Import-des-citoyennetés.md)) afin d’obtenir le nombre total d’individus par citoyenneté, grâce au fichier extrait [Citoyennetes.csv](Citoyennetes.csv).  
+3) Visualisation des citoyennetés [voir détail]() pour observer la distribution géographique.
 
-* Distribution des pays de naissance ou de nationalité par décennie de naissance.
-* Visualisation sous forme de graphique ou carte.
-* Hypothèse explorée : la discipline se diffuse à partir de quelques pays « fondateurs » vers d'autres zones.
+Grâce à un simple diagramme en barres horizontales, on constate que les États-Unis sont le pays le plus représenté parmi les grimpeurs notables, l'Allemagne puis la France en deuxième et troisième place.  
+
+Une autre observation intéressante est la présence multiple du Royaume-Uni, sous différentes dénominations historiques : *United Kingdom of Great Britain and Ireland*, *United Kingdom*, *Kingdom of Great Britain*, etc.  
+
+De même, la Russie moderne apparaît sous plusieurs formes : *Russian Empire*, *Soviet Union*, *Russian Socialist Federative Soviet Republic*, et d’autres appellations.  
+
+Ces variations ne concernent pas seulement ces deux pays ; plusieurs nations ont vu leurs noms et frontières évoluer au fil du temps. Cette diversité dans les appellations nous permet de retracer ces changements historiques sur une même zone géographique.  
+
+Par ailleurs, certains grimpeurs portent plusieurs citoyennetés correspondant à différents noms d’un même pays au cours de leur vie, reflétant ainsi les transformations politiques et territoriales qu’ils ont traversées.
+
+
 
 ### 2) Y a-t-il des différences de genre selon les disciplines (bloc, difficulté, vitesse) ?
 
