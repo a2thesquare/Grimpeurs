@@ -288,6 +288,7 @@ GROUP BY ?p ?label
 ORDER BY DESC(?n)
 ```
 ## Obtenir les labels des différents pays 
+```sparql
 ### Get the labels of the countries 
 # Prepare the insert
 
